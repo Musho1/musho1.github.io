@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>X O</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+		<link rel="icon" type="text/css" href="free-icon-tic-tac-toe-434798.png">
+	<style type="text/css">
+		body
+		{
+			background-color: #2f4e47
+		}
+		p
+		{
+			color:white;
+		}
+		table
+		{
+			margin-top: -50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+		}
+		tr,td
+		{
+			border:1px solid black;
+			font-size: 80px;
+			background-color: white;
+			
+		}
+		td
+		{
+			width:140px;
+			height: 140px;
+			text-align: center;
+		}
+		.d1
+		{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		input
+		{
+			border:none;
+			outline: none;
+			height: 20px;
+			margin:0 10px;
+
+		}
+		.color{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.color input
+		{
+			margin:0 30px;
+			width: 80px
+		}
+		label
+		{
+			color:white;
+		}
+		#usery{
+			color:white;
+		}
+		.by
+		{
+			display: flex;
+			justify-content: center;
+			margin-top: 20px; 
+		}	
+		.hashiv
+		{
+			display: flex;
+			margin-top:-18px;
+			justify-content: space-between;
+			font-size: 50px;
+		}
+		select{
+			margin-left: 20px;
+			margin-right: 20px	
+		}
+@media only screen and (max-width: 600px) {
+	table{
+		margin-top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.color{
+		display: grid;
+	}
+	.d1{
+		display: grid;
+	}
+	button{
+		margin-top: 10px
+	}
+	label{
+		text-align: center;
+	}
+	#usery{
+		text-align: center;
+	}
+	i{
+		margin:5px 0;
+		text-align: center;
+	}
+	#xaxacox1, #xaxacox2{
+		text-align: center;
+		height:  30px
+	}
+		
+
+}
+	</style>
+
+
+
+</head>
+<body id="fon">
+	<div class="hashiv">
+		<p id="xhashiv">0</p>
+		<p id="ohashiv">0</p>
+	</div>
+	<div>
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+	<hr>
+	<div class="d1">
+	<label id="userx">User X</label>
+	<input type="" name="" id="xaxacox1" placeholder="X">
+	<lable id="usery">User O</lable>
+	<input type="" name="" id="xaxacox2" placeholder="O">
+	</div>
+	<br>
+	<div class="color" class="col-md-6">
+	<label id="colorx">Color of X</label>
+	<input type="color" name=""  id="guyn1" value="#00ff43">
+	<label id="colory">Color of O</label>
+	<input type="color" name=""  id="guyn2" value="#ff5500">
+	<label id="colorfon">Background color</label>
+	<input type="color" name="" id="guyn3" value="#2f4e47">
+	<i class="fas fa-user-tie" style="color: white"></i>
+	<select id="yntrel">
+		<option id="o1">with two </option>
+		<option id="o2">alone</option>
+	</select> 
+	<i class="far fa-flag" style="color: white"></i>
+	<select id="languake">
+		<option value="English">English <i class="fas fa-user-tie"></i></option>
+		<option value="հայերեն" >հայերեն</option>
+	</select> 
+	<button class="btn btn-success btn-sm" id="change">Change</button>
+	</div>
+	<p class="by"> © Musho</p>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="scrypt.js"></script>
+</html>
