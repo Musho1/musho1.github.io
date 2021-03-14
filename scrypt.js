@@ -11,7 +11,7 @@ $(document).ready(function()
 	let color1="#00ff43"
 	let color2="#ff5500"
 	let color3="#2f4e47"
-	let patasxan="congratulation"
+	let patasxan="Congratulation"
 	let patasxan2="no one"
 	let yntrel=""
 	let languake
@@ -68,7 +68,7 @@ $(document).ready(function()
 			$("#o1").html("with two")
 			$("#o2").html("alone")
 			$("#change").html("Change")
-			patasxan="congratulation"
+			patasxan="Congratulation"
 			patasxan2="no one"
 		}
 		if(yntrel=="միայնակ"||yntrel=="alone"){
