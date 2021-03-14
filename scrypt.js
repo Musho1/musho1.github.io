@@ -52,9 +52,9 @@ $(document).ready(function()
 			$("#usery").html("Օ-խաղացող")
 			$("#colorx").html("X-ի գույնը")
 			$("#colory").html("O-ի գույնը")
-			$("#colorfon").html("ֆոն-ի գույնը")
-			$("#o1").html("երկուսով")
-			$("#o2").html("միայնակ")
+			$("#colorfon").html("Ֆոն-ի գույնը")
+			$("#o1").html("Երկուսով")
+			$("#o2").html("Միայնակ")
 			$("#change").html("Փոփոխել")
 			patasxan="շնորհավոր"
 			patasxan2="ոչ ոքի"
@@ -65,13 +65,13 @@ $(document).ready(function()
 			$("#colorx").html("Color of X")
 			$("#colory").html("Color of O")
 			$("#colorfon").html("Background color")
-			$("#o1").html("with two")
-			$("#o2").html("alone")
+			$("#o1").html("With two")
+			$("#o2").html("Alone")
 			$("#change").html("Change")
 			patasxan="Congratulation"
-			patasxan2="no one"
+			patasxan2="No one"
 		}
-		if(yntrel=="միայնակ"||yntrel=="alone"){
+		if(yntrel=="Միայնակ"||yntrel=="Alone"){
 			$("#xaxacox2").val("Computer")
 			$("#xaxacox2").css({
 				"pointer-events": "none",
