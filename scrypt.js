@@ -57,7 +57,7 @@ $(document).ready(function()
 			$("#o2").html("Միայնակ")
 			$("#change").html("Փոփոխել")
 			patasxan="Շնորհավոր"
-			patasxan2="ոչ ոքի"
+			patasxan2="Ոչ ոքի"
 		}
 		else if(languake=="English"){
 			$("#userx").html("User X")
