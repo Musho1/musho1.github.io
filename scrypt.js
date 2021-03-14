@@ -12,7 +12,7 @@ $(document).ready(function()
 	let color2="#ff5500"
 	let color3="#2f4e47"
 	let patasxan="Congratulation"
-	let patasxan2="no one"
+	let patasxan2="No one"
 	let yntrel=""
 	let languake
 	let k=true
@@ -46,7 +46,7 @@ $(document).ready(function()
 			"background-color":"white",
 
 		})
-		if(languake=="հայերեն")
+		if(languake=="Հայերեն")
 		{
 			$("#userx").html("X-խաղացող")
 			$("#usery").html("Օ-խաղացող")
@@ -56,7 +56,7 @@ $(document).ready(function()
 			$("#o1").html("Երկուսով")
 			$("#o2").html("Միայնակ")
 			$("#change").html("Փոփոխել")
-			patasxan="շնորհավոր"
+			patasxan="Շնորհավոր"
 			patasxan2="ոչ ոքի"
 		}
 		else if(languake=="English"){
