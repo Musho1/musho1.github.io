@@ -210,7 +210,7 @@ $(document).ready(function()
 					color:"white"
 				})
 			}
-			if(yntrel=="միայնակ"||yntrel=="alone"){
+			if(yntrel=="Միայնակ"||yntrel=="Alone"){
 				xax2="Computer"
 				count+=2
 				if($(this).html()=="X"){
